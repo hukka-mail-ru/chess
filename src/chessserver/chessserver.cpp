@@ -6,7 +6,7 @@
 #include <syslog.h>
 
 #include "ChessService.h"
-#include "../libs/gameserver/GameServer.h"
+#include "gameserver/GameServer.h"
 
 using namespace std;
 

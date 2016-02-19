@@ -1,7 +1,7 @@
 #ifndef ICHESSLOGIC_H_
 #define ICHESSLOGIC_H_
 
-#include <interface.h>
+#include <header/interface.h>
 #include "ChessGameStatus.h"
 
 /**

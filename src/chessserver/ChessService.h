@@ -6,8 +6,8 @@
 #include "SqlChessTable.h"
 #include "ChessLogic.h"
 
-#include "../libs/gameserver/gamestructs.h"
-#include "../libs/gameserver/GameService.h"
+#include "gameserver/gamestructs.h"
+#include "gameserver/GameService.h"
 
 
 #define CH_FIELD_SIZE 71

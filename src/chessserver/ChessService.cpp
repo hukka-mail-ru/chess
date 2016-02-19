@@ -1,6 +1,6 @@
 #include "ChessService.h"
-#include "../libs/gameserver/GameService.h"
-#include "../libs/header/defservice.h"
+#include "gameserver/GameService.h"
+#include "header/defservice.h"
 
 
 #include "ChessLogic.h"
