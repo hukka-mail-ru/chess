@@ -3,6 +3,7 @@
 	<name>socketserver</name>
 	<comment></comment>
 	<projects>
+		<project>Zlib</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

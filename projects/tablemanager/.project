@@ -3,6 +3,7 @@
 	<name>tablemanager</name>
 	<comment></comment>
 	<projects>
+		<project>Zlib</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
