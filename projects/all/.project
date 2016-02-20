@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>server</name>
+	<name>all</name>
 	<comment></comment>
 	<projects>
+		<project>chatserver</project>
+		<project>chessserver</project>
+		<project>socketserver</project>
+		<project>tablemanager</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
@@ -31,7 +35,7 @@
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.buildLocation</key>
-					<value>${workspace_loc:/server/Debug}</value>
+					<value>${workspace_loc:/all/Debug}</value>
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
