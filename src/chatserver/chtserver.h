@@ -8,7 +8,7 @@
 #include "socket/sendedmsg.h"
 #include "server/accessinfo.h"
 #include "server/socketmanager.h"
-#include "chatdefs.h"
+#include "chatserver/chatdefs.h"
 
 class CHTServer : public SocketManager, public AccessInfo
 {

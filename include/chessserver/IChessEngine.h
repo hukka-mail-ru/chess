@@ -1,8 +1,8 @@
 #ifndef ICHESSENGINE_H_
 #define ICHESSENGINE_H_
 
-#include "ChessGameStatus.h"
-#include "WPTypes.h"
+#include "chessserver/ChessGameStatus.h"
+#include "chessserver/WPTypes.h"
 
 /**
 * @file IChessEngine.h

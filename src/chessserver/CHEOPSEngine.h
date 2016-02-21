@@ -1,9 +1,8 @@
 #ifndef CHESSENGINE_H_
 #define CHESSENGINE_H_
 
-#include "IChessEngine.h"
-
-#include "./engine/ChessBoard.h"
+#include "chessserver/IChessEngine.h"
+#include "chessserver/ChessBoard.h"
 
 
 class CHEOPSEngine :public IChessEngine

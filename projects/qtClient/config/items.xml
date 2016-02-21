@@ -1,0 +1,197 @@
+<xml>
+
+  <MainWindow>
+    <color value = "black" />
+    <width value="480" />  <height value="320" />  
+  </MainWindow>
+
+  <Scene>
+    <margin>  <width value="0" />  </margin>
+     <x value="0" />   <y value="0" />  <width value="480" />  <height value="320" />  
+  </Scene>
+
+
+  <Splash>
+     <x value="0" />   <y value="20" /> 
+  </Splash>
+ 
+
+  <MainMenu>
+    <player>
+        <font> <family value="Helvetica [Cronyx]" />  <size value="18" /> <color value="#F8C356" /> </font>
+        <x value="320" />  <y value="120" />  
+    </player>
+    <rating>
+        <font> <family value="Helvetica [Cronyx]" />  <size value="10" />  <color value="white" /></font>
+        <x value="320" />  <y value="152" />  
+    </rating>
+    <balance>
+        <font> <family value="Helvetica [Cronyx]" />  <size value="10" />  <color value="white" /></font>
+        <x value="320" />  <y value="172" />  
+    </balance>
+  </MainMenu>
+  
+  <Dialogs>
+     <style value="MyDialog     { background: grey; } 
+                   QLineEdit    { font-size:  20px; } 
+                   QLabel       { font-size:  20px; color: white; }
+                   QCheckBox    { font-size:  20px; color: white; }
+                   QComboBox    { font-size:  20px; }
+                   QPushButton  { font-size:  24px; }
+                   QTableWidget { font-size:  18px; }"/> 
+  </Dialogs>
+
+
+  <CommonChat>
+    <x value="55" /> <y value="5" />  <width value="420" /> <height value="190" />  
+	<font>
+ 	    <me>             <color value="white" /> </me>
+		<opponent>       <color value="#FFCC00" /> </opponent>
+ 	    <server>         <color value="grey" /> </server>
+     </font>
+	<style value="Chat      { background: black; } 
+                  QTextEdit { background: black; font-size: 12px; font: italic; color: white; }
+                  QLabel    { background: black; font-size: 9px;  font: italic; color: white; }
+                  QTableWidget { background: black; color: white; }"/>
+
+	<history>
+	    <x value="0" /> <y value="0" />  <width value="305" /> <height value="190" />  
+	</history>
+
+	<userlist>
+	    <x value="310" /> <y value="15" />  <width value="110" /> <height value="175" />  
+	</userlist>
+
+	<header>
+		<x value="310" /> <y value="0" />	
+	</header>
+  </CommonChat>
+
+
+  <TableChat>
+	<x value="3" /> <y value="35" />  <width value="153" /> <height value="150" />  
+	<font>
+ 	    <me>             <color value="white" /> </me>
+		<opponent>       <color value="#FFCC00" /> </opponent>
+ 	    <server>         <color value="grey" /> </server>
+     </font>
+	<style value="Chat       { background: black; } 
+                  QTextEdit  { border-width: 1px; border-style:solid; border-color: grey; background: black; font-size: 12px; font: italic; color: white; }
+                  QTableWidget { background: black; color: white; }"/> 
+
+	<history>
+		<x value="0" /> <y value="0" />  <width value="153" /> <height value="150" />  
+	</history>
+
+	<userlist>
+		<x value="0" /> <y value="0" />  <width value="0" /> <height value="0" />  
+	</userlist>
+
+  </TableChat>
+
+
+  <Buttons>
+      <NewGame>
+        <x value="0" /> <y value="200" /> 
+        <width value="120" />  <height value="106" />  
+        <font> <family value="Helvetica [Cronyx]" /> <size value="12" />  <color value="white" />  <x value="-1" /> <y value="75" /> </font>
+      </NewGame>
+
+      <FindGame>
+        <x value="120" />  <y value="200" />  
+        <width value="120" />  <height value="106" />  
+        <font> <family value="Helvetica [Cronyx]" /> <size value="12" />  <color value="white" />  <x value="-1" /> <y value="75" /> </font>
+      </FindGame>
+
+      <Options>
+        <x value="240" />  <y value="200" /> 
+        <width value="120" />  <height value="106" />  
+        <font> <family value="Helvetica [Cronyx]" /> <size value="12" />  <color value="white" />  <x value="-1" /> <y value="75" /> </font>
+      </Options>
+
+      <Wallet>
+        <x value="360" />  <y value="200" /> 
+        <width value="120" />  <height value="106" />  
+        <font> <family value="Helvetica [Cronyx]" /> <size value="12" />  <color value="white" />  <x value="-1" /> <y value="75" /> </font>
+      </Wallet>
+
+      <Exit>
+        <x value="0" />  <y value="0" /> 
+        <width value="120" />  <height value="106" />  
+        <font> <family value="Helvetica [Cronyx]" /> <size value="12" />  <color value="white" />  <x value="-1" /> <y value="75" /> </font>
+      </Exit>
+
+
+      <GameMenu>
+        <x value="5" />   <y value="5" />  
+        <width value="62" />  <height value="26" />  
+        <font> <family value="Helvetica [Cronyx]" /> <size value="10" />  <color value="white" />  <x value="20" /> <y value="4" /> </font>
+      </GameMenu>
+
+      <Chat>
+        <x value="90" /> <y value="5" /> 
+        <width value="57" />  <height value="26" />  
+        <font> <family value="Helvetica [Cronyx]" /> <size value="10" />  <color value="white" />  <x value="110" /> <y value="4" /> </font>
+      </Chat>
+
+      <CommonChat>
+        <x value="3" /> <y value="60" /> 
+        <width value="50" />  <height value="75" />  
+        <font> <family value="Helvetica [Cronyx]" /> <size value="10" />  <color value="white" />  <x value="-1" /> <y value="50" /> </font>
+      </CommonChat>
+
+  </Buttons>
+
+  <Promotion>
+      <width value="50" />  <height value="50" />
+  </Promotion>
+
+  <Cell>
+    <width value="40" />
+  </Cell>
+
+  <Animation>
+	<timer value="500" />
+  </Animation>
+
+  <Piece>
+    <width value="40" />  <height value="40" />
+  </Piece>
+
+  <CaptureBox>
+	<me>       <x value="3" />   <y value="187" />  </me>
+	<opponent> <x value="3" />   <y value="281"/>  </opponent>
+    <Piece>  <width value="18" />  <height value="18" />  </Piece>
+	<border>  <width value="1" />  </border> 
+  </CaptureBox>
+
+  <MoveBox>
+
+    <color> <active value="white" /> <inactive value="grey" />  </color> 
+    <border> <x value="3" />   <y value="228" />  <width value="152" />  <height value="50" /> </border> 
+
+    <player>     <font> <family value="Helvetica [Cronyx]" />  <size value="9" /> </font>  <x value="3" />  <y value="2"  /> </player>
+    <MoveClock>  <font> <family value="Helvetica [Cronyx]" />  <size value="15" /> </font>  <x value="77" />  <y value="0" /> </MoveClock>
+    <GameClock>  <font> <family value="Helvetica [Cronyx]" />  <size value="9" /> </font>  <x value="70" />  <y value="25" /> </GameClock>
+
+    <GameState>   <font> <family value="Helvetica [Cronyx]" />  <size value="13" /> <color value="#FB9D0A" /> </font>  
+                  <x value="3" />  <y value="20" /> </GameState> 
+
+  </MoveBox>
+
+  <Board>
+    <width value="320" />
+    <border>  <width value="1" /> <color value="#D38842" /> </border>
+    <x value="160" /> <y value="0" /> 
+  </Board>
+
+<!--
+  <GameState>
+    <font> <family value="Helvetica [Cronyx]" />  <size value="14" /> <color value="#FB9D0A" /> </font>
+    <x value="50" />  <y value="131" /> 
+  </GameState>
+-->
+
+
+
+</xml>

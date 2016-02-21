@@ -1,0 +1,13 @@
+<xml>
+  <server>
+    <name value="10.233.103.184"/>
+    <port value="1234"/>
+  </server>
+  <client>
+    <language value="1"/>
+  </client>
+  <user>
+    <login value="robot2"/>
+    <password value="robot2"/>
+  </user>
+</xml>

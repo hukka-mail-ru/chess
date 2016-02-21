@@ -24,8 +24,8 @@
 #if !defined(AFX_CHESSTYPES_H__EBEFC225_5256_11D3_BC7B_0080C84DB68D__INCLUDED_)
 #define AFX_CHESSTYPES_H__EBEFC225_5256_11D3_BC7B_0080C84DB68D__INCLUDED_
 
-#include "stdafx.h"
-#include "IChessEngine.h"
+#include "chessserver/stdafx.h"
+#include "chessserver/IChessEngine.h"
 
 enum piece_type {
     Empty=0,

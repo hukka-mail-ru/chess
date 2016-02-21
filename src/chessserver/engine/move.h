@@ -24,7 +24,7 @@
 #if !defined(AFX_MOVE_H__EBEFC224_5256_11D3_BC7B_0080C84DB68D__INCLUDED_)
 #define AFX_MOVE_H__EBEFC224_5256_11D3_BC7B_0080C84DB68D__INCLUDED_
 
-#include "ChessTypes.h"
+#include "chessserver/ChessTypes.h"
 
 struct SMove {
     int from;

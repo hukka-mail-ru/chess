@@ -2,7 +2,7 @@
 #define ICHESSLOGIC_H_
 
 #include <header/interface.h>
-#include "ChessGameStatus.h"
+#include <chessserver/ChessGameStatus.h>
 
 /**
 * @file IChessLogic.h

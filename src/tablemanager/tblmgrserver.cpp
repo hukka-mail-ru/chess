@@ -4,7 +4,7 @@
 #include "header/deferror.h"
 #include "sql/sqltableusers.h"
 #include "sql/sqlratingtable.h"
-#include "tbmdefs.h"
+#include "tablemanager/tbmdefs.h"
 
 #include <iostream>
 #include <stdint.h>
